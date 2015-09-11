@@ -1,3 +1,4 @@
 @echo off
 
-npm install && node_modules\.bin\hubot.cmd --name "ltbot" %* 
+rem npm install && node_modules\.bin\hubot.cmd --name "ltbot" %* 
+node_modules\.bin\hubot.cmd --name "ltbot" %*
